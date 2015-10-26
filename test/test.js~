@@ -1,0 +1,10 @@
+var assert = require("assert");
+chat = require(__dirname+"/../app.js");
+
+describe('Chat', function(){
+    describe('Carga', function(){
+        it('Debe cargar el programa', function(){
+            assert(chat, "Cargado");
+        });
+    });
+});

@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  script(src="/javascripts/jquery-1.6.4.js")
+  script(src="/javascripts/view.index.js")
+
+  #left-column.column
+    h2 Selecciona la empresa
+    ul#heroes
+      each hero in heroes
+        li(class='hero-name')
+          a(href='#') #{hero}
+
+  #right-column.column
+    h2 Facts
+    ul#facts
+    label(for="new-fact") Añadir un nuevo alumno a la empresa:
+    textarea#new-fact
+    a(id='add-new-fact', href='#') Añadir

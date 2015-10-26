@@ -1,0 +1,33 @@
+{
+  "name": "aplicacion-web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.0.0rc3",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "docco": "^0.7.0",
+    "grunt": "^0.4.5",
+    "grunt-docco": "^0.4.0"
+  },
+  "description": "Aplicación web que lista empresas algunas empresas en las que se pueden añadir alumnos a dichas empresas.",
+  "main": "Gruntfile.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignaciorecuerda/aplicacion_web.git"
+  },
+  "author": "Jose Ignacio Recuerda Cambil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignaciorecuerda/aplicacion_web/issues"
+  },
+  "homepage": "https://github.com/ignaciorecuerda/aplicacion_web#readme"
+}
